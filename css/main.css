@@ -1,3 +1,26 @@
-p {
-    color: blue;
+.ihsdc-navbar{
+    background-color: #328FFE;
+}
+
+.ihsdc-navbar-brand{
+    color: #ffffff;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.ihsdc-navbar-brand:hover{
+    color: #ffffff;
+}
+
+.ihsdc-nav-item a{
+    color: #ffffff;
+}
+
+.ihsdc-nav-item a:hover{
+    color: #E7E5E4;
+}
+
+.ihsdc-active{
+    color: #E7E5E4;
+    font-weight: bold;
 }
