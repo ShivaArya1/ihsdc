@@ -1,62 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- required meta tags -->
-    <meta name="author" content="suzayn" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- title -->
-    <title>IHSDCs</title>
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <!-- bootstrap javascript -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <!-- css -->
-    <link rel="stylesheet" href="css/main.css" />
-    <!-- javascript -->
-    <script src="js/main.js"></script>
-  </head>
-  <body>
-    <!-- Header -->
-    <nav class="navbar navbar-expand-sm navbar-dark ihsdc-navbar sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">IHSDC</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#mynavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="navbar-nav ihsdc-navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="galary.html">Galary</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
-    <div
-      class="container-fluid p-5 text-white text-center ihsdc-container-fluid"
-    >
+<head>
+  <!-- required meta tags -->
+  <meta name="author" content="suzayn" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- title -->
+  <title>IHSDCs</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- bootstrap 5 javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- OwlCarousel2 css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- OwlCarousel2 javascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- css -->
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- javascript -->
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-sm navbar-dark sticky-top ihsdc-navbar">
+    <div class="container">
+      <!-- brand name -->
+      <a class="navbar-brand" href="index.html">IHSDC</a>
+      <!-- menu button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- menu -->
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav ihsdc-navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galary.html">Galary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- banner -->
+  <div class="container-fluid ihsdc-container-fluid">
+    <div class="container p-5 text-white text-center">
       <h1 style="font-weight: bolder; padding: 25px">
         International Hospitality skills development center Private Limited
         (IHSDC)
@@ -66,9 +68,47 @@
       </p>
       <p style="font-weight: bold">2071 BS (2015)</p>
     </div>
+    <!-- menu -->
+    <div class="container-fluid p-5 text-white text-left" style="margin-top: -120px">
+      <h5>HOME/</h5>
+      <a href="#about-us" style="
+            cursor: pointer;
+            font-size: 18px;
+            text-decoration: none;
+            color: #328ffe;
+          ">About Us</a><br />
+      <a href="#our-video" style="
+            cursor: pointer;
+            font-size: 18px;
+            text-decoration: none;
+            color: #328ffe;
+          ">Our Video</a><br />
+      <a href="#our-programs" style="
+          cursor: pointer;
+          font-size: 18px;
+          text-decoration: none;
+          color: #328ffe;
+        ">Our Programs</a><br />
+      <a href="#galary" style="
+        cursor: pointer;
+        font-size: 18px;
+        text-decoration: none;
+        color: #328ffe;
+      ">Galary</a><br />
+    </div>
+  </div>
 
-    <div class="container-fluid p-5 text-black text-center">
-      <p style="padding-left: 35px; padding-right: 35px">
+  <!-- about us 1 -->
+  <div class="container-fluid text-black" style="padding-top: 40px;">
+    <!-- header -->
+    <div class="container text-center">
+      <a id="about-us" style="cursor: pointer; text-decoration: none; color: #328ffe">
+        <h4>About Us</h4>
+      </a>
+    </div>
+    <!-- body -->
+    <div class="container">
+      <p>
         Hospitality skills development center Private Limited (IHSDC)
         established on 2071 BS (2015) for the purpose or motive of producing
         skills and professionals. Entrepreneurs, Management and Workforce,
@@ -76,54 +116,137 @@
         programs on more than 100 organizations and associations.
       </p>
     </div>
-    <div class="container-fluid">
-      <div class="row" style="padding-left: 35px; padding-right: 35px">
-        <div class="col text-center">
-          <img
-            alt=""
-            src="images/Mission, Values, Vision, Goal-min.png"
-            style="
-              width: 300px;
-              height: 300px;
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: cover;
-            "
-          />
-          <div class="container" style="padding-top: 20px">
-            <p>
-              ⦁ Vision : developing quality Human Resources and support Quality
-              Tourism.
-            </p>
-            <p>⦁ Mission : Maintain trust of service users.</p>
-            <p>⦁ Core Value : Care for</p>
-            <p>⦁ Goal : Being first choice of service users.</p>
-          </div>
+  </div>
+  <hr style="margin: 40px;" />
+
+  <!-- about us 2 -->
+  <div class="container-fluid text-black">
+    <div class="container">
+      <!-- first row -->
+      <div class="row">
+        <!-- first col -->
+        <div class="col-sm-6 p-3">
+          <p>
+            <b>Vision :</b> developing quality Human Resources and support Quality
+            Tourism.
+          </p>
+          <p>
+            <b>Mission :</b> Maintain trust of service users.
+          </p>
+          <p>
+            <b>Core Value :</b> Care for.
+          </p>
+          <p>
+            <b>Goal :</b> Being first choice of service users.
+          </p>
         </div>
-        <div class="col text-center">
-          <img
-            alt=""
-            src="images/about-min.png"
-            style="
-              width: 360px;
-              height: 300px;
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: cover;
-            "
-          />
-          <div class="container" style="padding-top: 20px">
-            <p>
-              IHSDC's unique support programs for developing professionals :
-            </p>
-            <p>- Soft skills development program.</p>
-            <p>- Management level training program.</p>
-            <p>- Management trainee program.</p>
-            <p>- Personal counseling and coaching program.</p>
-            <p>more</p>
-          </div>
+        <!-- second col -->
+        <div class="col-sm-6 p-3 text-center">
+          <img alt="" src="images/Mission, Values, Vision, Goal-min.png" style="
+              width: 100%;
+              height: 240px;
+              object-fit: contain;
+            " />
+        </div>
+      </div>
+      <hr style="margin: 40px;" />
+      <!-- second row -->
+      <div class="row">
+        <!-- first col -->
+        <div class="col-sm-6 p-3">
+          <p>
+            IHSDC's unique support programs for developing professionals :
+          </p>
+          <p>- Soft skills development program.</p>
+          <p>- Management level training program.</p>
+          <p>- Management trainee program.</p>
+          <p>- Personal counseling and coaching program.</p>
+          <p>more</p>
+        </div>
+        <!-- second col -->
+        <div class="col-sm-6 p-3 text-center">
+          <img alt="" src="images/about-min.png" style="
+              width: 100%;
+              height: 240px;
+              object-fit: contain;
+            " />
         </div>
       </div>
     </div>
-  </body>
+  </div>
+
+  <!-- our video -->
+  <div class="container-fluid text-center" style="padding-top: 40px;">
+    <!-- header -->
+    <a id="our-video" style="cursor: pointer; text-decoration: none; color: #328ffe">
+      <h4>Our Video</h4>
+    </a>
+    <!-- body -->
+    <iframe style="width: 100%; height: 534px; padding-top: 20px" src="https://www.youtube.com/embed/R45toGbIa_4"
+      title="IHSDC" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+
+  <!-- our programs -->
+  <div class="container-fluid" style="padding-top: 40px;">
+    <!-- header -->
+    <div class="container text text-center">
+      <a id="our-programs" style="cursor: pointer; text-decoration: none; color: #328ffe">
+        <h4>Our Programs</h4>
+      </a>
+    </div>
+    <!-- body -->
+    <div class="container text">
+      <p>
+        To add value on confident level for your overseas startup and further career growth anywhere, IHSDC – Academy of
+        professional educations has started Employability skills and Life skills Development program on title of “Basic
+        hotel management skills and Generic skills”.
+      </p>
+      <p>
+        <b>On this program,</b>
+      <p>⦁ We armed young minded learners with professional knowledge, experienced skills, Effective thoughts on 5
+        departments of hotel (Barista, Waiter, Cooking, Front office and Housekeeping/cleaning) which provide feelings
+        of work confident on overseas startup.</p>
+      <p>⦁ Empowering learners with useful Life skills tools and techniques with appropriate learning environments which
+        directly support further career growth of learners.</p>
+      </p>
+      <p>
+        <b>Outcome from program :-</b>
+      <p>⦁ Learners can become familiar with 5 departments of hotel, advanced knowledge and techniques which they can
+        implement to develop their capabilities on the part of productively.</p>
+      <p>⦁ Learners will be introduced what is the work is about, how to do, what kind of role do the job play in the
+        whole business, which helps them to understand work better and also love what they do by understanding the work.
+      </p>
+      <p>⦁ Learners stimulate learning through behavior which is best for skill development and changing attitudes.</p>
+      <p>⦁ The knowledge and skills presented during learning sessions are directly related to job competency and
+        expanding opportunities.</p>
+      <p>⦁ Learning process makes individual to rely on more flexible, adaptable, innovative, and eager to learn, able
+        to communicate effectively, to know about time management, decision making, Personality development , others
+        soft skills and life skills.</p>
+      <p>⦁ It is the process of individual guidance, instructions, motivation to improve over all knowledge, skills and
+        performance which is directly oriented on the basis of requirements of learners for their sustainable career
+        growth.</p>
+      <p>⦁ It can motivate yourself that you value yourself enough to invent your growth. You will be able to Creating
+        Success Strategies that work for you.</p>
+      <p>⦁ Learners can acquire adequate a “hands on” model, knowledge, skills and talent which emphasis on experiential
+        learning to provide them feelings of confident.</p>
+      </p>
+    </div>
+  </div>
+
+  <!-- Galary -->
+  <div class="container-fluid" style="padding-top: 40px;">
+    <!-- header -->
+    <div class="container text text-center">
+      <a id="galary" style="cursor: pointer; text-decoration: none; color: #328ffe">
+        <h4>Galary</h4>
+      </a>
+    </div>
+    <!-- body -->
+    <div class="container" style="padding-top: 40px;">
+      
+    </div>
+  </div>
+</body>
 </html>

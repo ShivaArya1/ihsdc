@@ -2,33 +2,52 @@
 <html lang="en">
   <head>
     <!-- required meta tags -->
+    <meta name="author" content="suzayn" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- title -->
     <title>IHSDCs</title>
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap 5 CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <!-- bootstrap javascript -->
+    <!-- bootstrap 5 javascript -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
+    ></script>
+    <!-- OwlCarousel2 css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- OwlCarousel2 javascript -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     ></script>
     <!-- css -->
     <link rel="stylesheet" href="css/main.css" />
     <!-- javascript -->
     <script src="js/main.js"></script>
   </head>
+
   <body>
-    <!-- Header -->
-    <nav class="navbar navbar-expand-sm navbar-dark ihsdc-navbar sticky-top">
-      <div class="container-fluid">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top ihsdc-navbar">
+      <div class="container">
+        <!-- brand name -->
         <a class="navbar-brand" href="index.html">IHSDC</a>
+        <!-- menu button -->
         <button
           class="navbar-toggler"
           type="button"
@@ -37,6 +56,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- menu -->
         <div class="collapse navbar-collapse" id="mynavbar">
           <ul class="navbar-nav ihsdc-navbar-nav">
             <li class="nav-item">
@@ -52,5 +72,51 @@
         </div>
       </div>
     </nav>
+
+    <!-- banner -->
+    <div class="container-fluid ihsdc-container-fluid">
+      <div class="container p-5 text-white text-center">
+        <h1 style="font-weight: bolder; padding: 25px">
+          International Hospitality skills development center Private Limited
+          (IHSDC)
+        </h1>
+        <p style="font-weight: bold">
+          (IHSDC – Academy of professional Educations)
+        </p>
+        <p style="font-weight: bold">2071 BS (2015)</p>
+      </div>
+      <!-- menu -->
+      <div
+        class="container-fluid p-5 text-white text-left"
+        style="margin-top: -120px"
+      >
+        <h5>Galary/</h5>
+        <a
+          href="#galary"
+          style="
+            cursor: pointer;
+            font-size: 18px;
+            text-decoration: none;
+            color: #328ffe;
+          "
+          >Galary</a
+        ><br />
+      </div>
+    </div>
+
+    <!-- about us 1 -->
+    <div class="container-fluid text-black" style="padding-top: 40px">
+      <!-- header -->
+      <div class="container text-center">
+        <a
+          id="galary"
+          style="cursor: pointer; text-decoration: none; color: #328ffe"
+        >
+          <h4>Galary</h4>
+        </a>
+      </div>
+      <!-- body -->
+      <div class="container" style="padding-top: 40px;"></div>
+    </div>
   </body>
 </html>

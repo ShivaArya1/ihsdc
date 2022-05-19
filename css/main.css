@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6em;
   background-color: #C6DDEA;
 }
@@ -23,17 +23,22 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .ihsdc-navbar {
-  background-color: #328ffe;
+    background: linear-gradient(#2563eb, #328ffe);
 }
 
 .ihsdc-container-fluid {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-blend-mode: darken; */
-  /* background: linear-gradient(#328ffe, #2563eb), url(/images/6-min.jpg); */
-  height: 500px;
+  height: auto;
 }
+
+.ihsdc-container-fluid {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-image: url(../images/bg-min.png);
+    height: 100vh;
+  }
 
 .ihsdc-navbar-brand {
   color: #ffffff;
