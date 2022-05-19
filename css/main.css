@@ -31,7 +31,7 @@ body::-webkit-scrollbar-thumb:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
-  background: linear-gradient(#328ffe, #2563eb), url(/images/6-min.jpg);
+  /* background: linear-gradient(#328ffe, #2563eb), url(/images/6-min.jpg); */
   height: 500px;
 }
 
