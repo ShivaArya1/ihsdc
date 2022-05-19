@@ -1,26 +1,46 @@
-.ihsdc-navbar{
-    background-color: #328FFE;
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.6em;
+  background-color: #C6DDEA;
 }
 
-.ihsdc-navbar-brand{
-    color: #ffffff;
-    font-weight: normal;
-    letter-spacing: 2px;
+body::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 5px;
 }
 
-.ihsdc-navbar-brand:hover{
-    color: #ffffff;
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
 
-.ihsdc-nav-item a{
-    color: #ffffff;
+body::-webkit-scrollbar-thumb {
+  background: #888;
 }
 
-.ihsdc-nav-item a:hover{
-    color: #E7E5E4;
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
-.ihsdc-active{
-    color: #E7E5E4;
-    font-weight: bold;
+.ihsdc-navbar {
+  background-color: #328ffe;
+}
+
+.ihsdc-container-fluid {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  background: linear-gradient(#328ffe, #2563eb), url(/images/6-min.jpg);
+  height: 500px;
+}
+
+.ihsdc-navbar-brand {
+  color: #ffffff;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.ihsdc-navbar-nav {
+  margin-left: auto;
 }
