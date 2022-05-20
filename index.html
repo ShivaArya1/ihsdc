@@ -6,35 +6,49 @@
   <meta name="author" content="suzayn" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <!-- title -->
   <title>IHSDCs</title>
-  <!-- Bootstrap 5 CSS -->
+
+  <!-- bootstrap 5 css -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <!-- bootstrap 5 javascript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <!-- OwlCarousel2 css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- OwlCarousel2 javascript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
+  <!-- owlcarousel2 css -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
   <!-- css -->
   <link rel="stylesheet" href="css/main.css" />
-  <!-- javascript -->
-  <script src="js/main.js"></script>
 </head>
 
 <body>
+  <!-- go to tp btn -->
+  <a id="button" class="ihsdc-go-to-top-icon"><i class="bi bi-arrow-up-circle-fill"></i></a>
+
   <!-- navbar -->
   <nav class="navbar navbar-expand-sm navbar-dark sticky-top ihsdc-navbar">
     <div class="container">
       <!-- brand name -->
       <a class="navbar-brand" href="index.html">IHSDC</a>
+      <ul style="list-style-type: none; margin-top: 18px; margin-left: -25px;">
+        <li style="margin-left: 20px; float: left;">
+          <a href="" class="ihsdc-icon">
+            <i class="bi bi-facebook" style="font-size: 20px; cursor: pointer;"></i>
+          </a>
+        </li>
+        <li style="margin-left: 20px; float: left;">
+          <a href="" class="ihsdc-icon">
+            <i class="bi bi-instagram" style="font-size: 20px; cursor: pointer;"></i>
+          </a>
+        </li>
+        <li style="margin-left: 20px; float: left;">
+          <a href="" class="ihsdc-icon">
+            <i class="bi bi-tiktok" style="font-size: 20px; cursor: pointer;"></i>
+          </a>
+        </li>
+      </ul>
       <!-- menu button -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
         <span class="navbar-toggler-icon"></span>
@@ -50,7 +64,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact Us</a>
-          </li>
         </ul>
       </div>
     </div>
@@ -71,30 +84,48 @@
     <!-- menu -->
     <div class="container-fluid p-5 text-white text-left" style="margin-top: -120px">
       <h5>HOME/</h5>
-      <a href="#about-us" style="
+      <a class="shortcut" href="#about-us" style="
             cursor: pointer;
             font-size: 18px;
             text-decoration: none;
             color: #328ffe;
           ">About Us</a><br />
-      <a href="#our-video" style="
+      <a class="shortcut" href="#our-video" style="
             cursor: pointer;
             font-size: 18px;
             text-decoration: none;
             color: #328ffe;
           ">Our Video</a><br />
-      <a href="#our-programs" style="
+      <a class="shortcut" href="#our-programs" style="
           cursor: pointer;
           font-size: 18px;
           text-decoration: none;
           color: #328ffe;
         ">Our Programs</a><br />
-      <a href="#galary" style="
+      <a class="shortcut" href="#galary" style="
         cursor: pointer;
         font-size: 18px;
         text-decoration: none;
         color: #328ffe;
       ">Galary</a><br />
+      <a class="shortcut" href="#students" style="
+      cursor: pointer;
+      font-size: 18px;
+      text-decoration: none;
+      color: #328ffe;
+    ">What our Students Says</a><br />
+      <a class="shortcut" href="#contact-us" style="
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    color: #328ffe;
+  ">Contact Us</a><br />
+      <a class="shortcut" href="#opening-hours" style="
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  color: #328ffe;
+">Opening Hours</a><br />
     </div>
   </div>
 
@@ -238,15 +269,173 @@
   <!-- Galary -->
   <div class="container-fluid" style="padding-top: 40px;">
     <!-- header -->
+    <!-- header -->
     <div class="container text text-center">
       <a id="galary" style="cursor: pointer; text-decoration: none; color: #328ffe">
-        <h4>Galary</h4>
+        <h4>What our Students Says</h4>
       </a>
     </div>
     <!-- body -->
-    <div class="container" style="padding-top: 40px;">
-      
+    <div class="container p-3 ihsdc-galary-testimonials">
+      <div class="owl-carousel owl-carousel1 owl-theme ihsdc-galary-carousel">
+
+        <div class="container text-center ihsdc-galary-item">
+          <div class="card text-center ihsdc-galary-images">
+            <img src="images/Galary/1-min.jpg" alt="" />
+          </div>
+        </div>
+        <div class="container text-center ihsdc-galary-item">
+          <div class="card text-center ihsdc-galary-images">
+            <img src="images/Galary/2-min.jpg" alt="" />
+          </div>
+        </div>
+        <div class="container text-center ihsdc-galary-item">
+          <div class="card text-center ihsdc-galary-images">
+            <img src="images/Galary/3-min.jpg" alt="" />
+          </div>
+        </div>
+        <div class="container text-center ihsdc-galary-item">
+          <div class="card text-center ihsdc-galary-images">
+            <img src="images/Galary/4-min.jpg" alt="" />
+          </div>
+        </div>
+        <div class="container text-center ihsdc-galary-item">
+          <div class="card text-center ihsdc-galary-images">
+            <img src="images/Galary/5-min.jpg" alt="" />
+          </div>
+        </div>
+        <div class="container text-center ihsdc-galary-item">
+          <div class="card text-center ihsdc-galary-images">
+            <img src="images/Galary/6-min.jpg" alt="" />
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
+  <hr style="margin: 40px;" />
+
+  <!-- response -->
+  <div class="container-fluid">
+    <!-- header -->
+    <div class="container text text-center">
+      <a id="students" style="cursor: pointer; text-decoration: none; color: #328ffe">
+        <h4>What our Students Says</h4>
+      </a>
+    </div>
+    <!-- body -->
+    <div class="container p-3 ihsdc-response-testimonials">
+      <div class="owl-carousel owl-carousel1 owl-theme ihsdc-response-carousel">
+
+        <div class="container text-center ihsdc-response-item">
+          <div class="card text-center ihsdc-response-circle">
+            <img src="images/Students/suzayn.png" alt="" />
+          </div>
+          <h5 class="ihsdc-student-name">Shiva Aryal</h5>
+          <p style="font-size: 14px;">
+            <i>Hospitality skills development center Private Limited (IHSDC)
+              established on 2071 BS (2015) for the purpose or motive of producing
+              skills and professionals. Entrepreneurs, </i>
+          </p>
+        </div>
+        <div class="container text-center ihsdc-response-item">
+          <div class="card text-center ihsdc-response-circle">
+            <img src="images/Students/suzayn.png" alt="" />
+          </div>
+          <h5 class="ihsdc-student-name">Asmita Pokharel</h5>
+          <p style="font-size: 14px;">
+            <i>Hospitality skills development center Private Limited (IHSDC)
+              established on 2071 BS (2015) for the purpose or motive of producing
+              skills and professionals. Entrepreneurs, </i>
+          </p>
+        </div>
+        <div class="container text-center ihsdc-response-item">
+          <div class="card text-center ihsdc-response-circle">
+            <img src="images/Students/suzayn.png" alt="" />
+          </div>
+          <h5 class="ihsdc-student-name">Sudip Pokharel</h5>
+          <p style="font-size: 14px;">
+            <i>Hospitality skills development center Private Limited (IHSDC)
+              established on 2071 BS (2015) for the purpose or motive of producing
+              skills and professionals. Entrepreneurs, </i>
+          </p>
+        </div>
+        <div class="container text-center ihsdc-response-item">
+          <div class="card text-center ihsdc-response-circle">
+            <img src="images/Students/suzayn.png" alt="" />
+          </div>
+          <h5 class="ihsdc-student-name">Pradip Pokharel</h5>
+          <p style="font-size: 14px;">
+            <i>Hospitality skills development center Private Limited (IHSDC)
+              established on 2071 BS (2015) for the purpose or motive of producing
+              skills and professionals. Entrepreneurs, </i>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="container-fluid" style="padding: 40px; background: linear-gradient(#328ffe, #2563eb);">
+    <div class=" row">
+      <!-- contact us -->
+      <div class="container col-sm-6 text-left text-white">
+        <h5 class="mb-1" id="contact-us" style="letter-spacing: 2px; cursor: pointer;">Contact Us</h5>
+        <table class="table" style="font-size: 16px; color:#ffffff;">
+          <tbody>
+            <tr style=" border-bottom:hidden !important;">
+              <td>
+                <i class="bi bi-house-fill"></i>
+                <i style="font-size: 16px;">Belchowk - Chitwan</i>
+              </td>
+            </tr>
+            <tr style=" border-bottom:hidden !important;">
+              <td>
+                <i class="bi bi-envelope-fill"></i>
+                <i style="font-size: 16px;">
+                  <a href="mailto:sudipihsdc@gmail.com" class="email">sudipihsdc@gmail.com</a>
+                </i>
+              </td>
+            </tr>
+            <tr style=" border-bottom:hidden !important;">
+              <td>
+                <i class="bi bi-telephone-fill">
+                </i><i style="font-size: 16px;">
+                  <a href="tel:1234567890" class="phone">1234567890</a>, <a href="tel:0987654321"
+                    class="phone">0987654321</a>
+                </i>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- opening hours -->
+      <div class="container col-sm-6 text-left text-white">
+        <h5 class="mb-1" id="opening-hours" style="letter-spacing: 2px; cursor: pointer;">Opening Hours</h5>
+        <table class="table" style="font-size: 16px; color:#ffffff; border-color:#ffffff;">
+          <tbody>
+            <tr>
+              <td>Sunday - Friday : <i>8:00 am - 5:00 pm</i></td>
+            </tr>
+            <tr>
+              <td>Saturday : <i>Closed</i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- bootstrap 5 javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- jquery -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <!-- owlcarousel2 javascript -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- javascript -->
+  <script src="js/main.js"></script>
 </body>
+
 </html>
