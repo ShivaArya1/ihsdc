@@ -234,3 +234,9 @@ body::-webkit-scrollbar-thumb:hover {
   color: #44403C;
 }
 /*  */
+
+@media only screen and (max-width:680px) {
+  .shortcut, .shortcut-main-page-name {
+    display: none;
+  }
+}
