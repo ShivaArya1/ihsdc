@@ -235,7 +235,13 @@ body::-webkit-scrollbar-thumb:hover {
 }
 /*  */
 
-@media only screen and (max-width:680px) and (orientation:landscape) {
+@media only screen and (max-width:680px) {
+  .shortcut, .shortcut-main-page-name {
+    display: none;
+  }
+}
+
+@media only screen and (orientation:landscape) {
   .shortcut, .shortcut-main-page-name {
     display: none;
   }
