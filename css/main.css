@@ -14,7 +14,7 @@ body::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
   background: linear-gradient(#002777, #2563eb);
   border-radius: 12px;
 }
@@ -37,7 +37,7 @@ body::-webkit-scrollbar-thumb:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
-  background-image: url(../images/bg-min.png);
+  background-image: url(../images/Others/bg-min.png);
   height: 100vh;
 }
 
@@ -105,18 +105,24 @@ body::-webkit-scrollbar-thumb:hover {
   width: 95%;
   max-height: 350px;
   padding: 15px;
+  border-left: #002777 6px solid;
+}
+
+.ihsdc-response-item:hover {
+  border-bottom: #002777 6px solid;
 }
 
 .ihsdc-response-circle {
-  height: 80px;
-  width: 80px;
-  background-color: #ffffff;
+  height: 84px;
+  width: 84px;
   border-radius: 50%;
   display: inline-block;
   overflow: hidden;
+  background-color: #ffffff;
 }
 
 .ihsdc-response-circle img {
+  width: 100%;
   width: 100%;
   margin-top: -15px;
 }
@@ -231,18 +237,20 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .ihsdc-go-to-top-icon:hover {
-  color: #44403C;
+  color: #44403c;
 }
 /*  */
 
-@media only screen and (max-width:680px) {
-  .shortcut, .shortcut-main-page-name {
+@media only screen and (max-width: 680px) {
+  .shortcut,
+  .shortcut-main-page-name {
     display: none;
   }
 }
 
-@media only screen and (max-width:680px) and (orientation:landscape) {
-  .shortcut, .shortcut-main-page-name {
+@media only screen and (max-width: 680px) and (orientation: landscape) {
+  .shortcut,
+  .shortcut-main-page-name {
     display: none;
   }
 }

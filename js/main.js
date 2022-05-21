@@ -1,3 +1,8 @@
+// opening page from top after refresh
+$(document).ready(function(){
+  $(window).scrollTop(0);
+});
+
 // galary-carousel
 $(document).ready(function () {
   $(".ihsdc-galary-carousel").owlCarousel();
