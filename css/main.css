@@ -235,7 +235,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 /*  */
 
-@media only screen and (max-width:680px) {
+@media only screen and (max-width:680px) and (orientation:landscape) {
   .shortcut, .shortcut-main-page-name {
     display: none;
   }
