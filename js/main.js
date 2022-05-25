@@ -23,20 +23,6 @@ $(".ihsdc-galary-carousel").owlCarousel({
     0: {
       items: 1,
     },
-    324: {
-      items: 1,
-      nav: false,
-    },
-    524: {
-      items: 1,
-      nav: false,
-    },
-    824: {
-      items: 1,
-    },
-    1024: {
-      items: 1,
-    },
   },
 });
 
@@ -59,18 +45,6 @@ $(".ihsdc-response-carousel").owlCarousel({
   responsive: {
     0: {
       items: 1,
-    },
-    324: {
-      items: 1,
-    },
-    524: {
-      items: 1,
-    },
-    824: {
-      items: 2,
-    },
-    1024: {
-      items: 2,
     },
   },
 });
