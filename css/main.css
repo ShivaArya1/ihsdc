@@ -5,6 +5,7 @@ body {
   background-color: #c6ddea;
 }
 
+/* scrollbar */
 body::-webkit-scrollbar {
   width: 8px;
   border-radius: 5px;
@@ -22,6 +23,7 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background: #002777;
 }
+/*  */
 
 .ihsdc-navbar {
   background: linear-gradient(#2563eb, #328ffe);
@@ -43,7 +45,8 @@ body::-webkit-scrollbar-thumb:hover {
 
 .ihsdc-navbar-brand {
   color: #ffffff;
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 20px;
   letter-spacing: 2px;
 }
 
