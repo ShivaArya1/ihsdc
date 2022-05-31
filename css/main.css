@@ -29,6 +29,10 @@ body::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(#2563eb, #328ffe);
 }
 
+.ihsdc-our-cources-navbar, .ihsdc-our-cources-2nd-navbar {
+  background: #328ffe;
+}
+
 .ihsdc-container-fluid {
   height: auto;
 }
@@ -148,7 +152,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 18px !important;
   height: 18px !important;
   border-color: #2563eb;
-  border-width: 4px !important;
+  border-width: 3px !important;
   border-style: solid;
   background-color: #c6ddea !important;
   display: block;

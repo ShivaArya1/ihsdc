@@ -1,5 +1,5 @@
 // opening page from top after refresh
-$(document).ready(function(){
+$(document).ready(function () {
   $(window).scrollTop(0);
 });
 
@@ -44,22 +44,31 @@ $(".ihsdc-response-carousel").owlCarousel({
   //   margin: 10,
   responsive: {
     0: {
-      items: 1,
+      items: 2,
+    },
+    360: {
+      items: 1
+    },
+    560: {
+      items: 1
+    },
+    720: {
+      items: 2
     },
   },
 });
 
 // ===== Scroll to Top ====
-var btn = $('#button');
+var btn = $("#button");
 
-$(window).scroll(function() {
- if ($(window).scrollTop() > 280) {
- btn.addClass('show');
- } else {
- btn.removeClass('show');
- }
+$(window).scroll(function () {
+  if ($(window).scrollTop() > 280) {
+    btn.addClass("show");
+  } else {
+    btn.removeClass("show");
+  }
 });
-btn.on('click', function(e) {
- e.preventDefault();
- $('html, body').animate({scrollTop:0}, '300');
+btn.on("click", function (e) {
+  e.preventDefault();
+  $("html, body").animate({ scrollTop: 0 }, "300");
 });
